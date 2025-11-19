@@ -167,7 +167,8 @@ namespace AppComercial.Windows
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message, ex);
+                MessageBox.Show(ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
