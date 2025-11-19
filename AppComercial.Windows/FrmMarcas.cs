@@ -165,9 +165,9 @@ namespace AppComercial.Windows
                         MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show(ex.Message, "Error",
+                MessageBox.Show("MARCA EXISTENTE", "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
